@@ -1,12 +1,14 @@
 package portalrh.com.portalRH.models;
 
-import com.portalRH.PortalRH.enums.*;
+import jakarta.persistence.Entity;
+import portalrh.com.portalRH.enums.*;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.List;
 
-public class Funcionario {
+@Entity
+public class Funcionario extends EntityId{
 
     private String nome;
     private String cpf;
