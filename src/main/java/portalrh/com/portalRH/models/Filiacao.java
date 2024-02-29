@@ -1,6 +1,9 @@
 package portalrh.com.portalRH.models;
 
-public class Filiacao {
+import jakarta.persistence.Entity;
+
+@Entity
+public class Filiacao extends EntityId{
 
     private String nomePai;
     private String nomeMae;

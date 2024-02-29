@@ -1,6 +1,9 @@
 package portalrh.com.portalRH.models;
 
-public class Cargo {
+import jakarta.persistence.Entity;
+
+@Entity
+public class Cargo extends EntityId{
 
     private String descricao;
     private String nivel;

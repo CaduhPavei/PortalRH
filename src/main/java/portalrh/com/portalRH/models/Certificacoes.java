@@ -1,22 +1,25 @@
 package portalrh.com.portalRH.models;
 
+import jakarta.persistence.Entity;
+
 import java.time.LocalDate;
 
-public class Certificacoes {
+@Entity
+public class Certificacoes extends EntityId{
 
-    private String nomeCertificação;
+    private String nomeCertificacao;
     private LocalDate dataEmissao;
     private Double cargaHoraria;
 
     public Certificacoes() {
     }
 
-    public String getNomeCertificação() {
-        return nomeCertificação;
+    public String getNomeCertificacao() {
+        return nomeCertificacao;
     }
 
-    public void setNomeCertificação(String nomeCertificação) {
-        this.nomeCertificação = nomeCertificação;
+    public void setNomeCertificacao(String nomeCertificação) {
+        this.nomeCertificacao = nomeCertificação;
     }
 
     public LocalDate getDataEmissao() {
@@ -38,7 +41,7 @@ public class Certificacoes {
     @Override
     public String toString() {
         return "Certificacoes{" +
-                "nomeCertificação='" + nomeCertificação + '\'' +
+                "nomeCertificacao='" + nomeCertificacao + '\'' +
                 ", dataEmissao=" + dataEmissao +
                 ", cargaHoraria=" + cargaHoraria +
                 '}';

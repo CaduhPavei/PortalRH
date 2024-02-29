@@ -1,10 +1,12 @@
 package portalrh.com.portalRH.models;
 
-import com.portalRH.PortalRH.enums.Escolaridade;
+import jakarta.persistence.Entity;
+import portalrh.com.portalRH.enums.Escolaridade;
 
 import java.time.LocalDate;
 
-public class Dependentes {
+@Entity
+public class Dependentes extends EntityId{
 
     private String nomeDependente;
     private LocalDate dataNascimento;

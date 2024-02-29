@@ -1,8 +1,11 @@
 package portalrh.com.portalRH.models;
 
+import jakarta.persistence.Entity;
+
 import java.time.LocalDate;
 
-public class ExpAnteriores {
+@Entity
+public class ExpAnteriores extends EntityId{
 
     private String descrissaoExp;
     private String cargo;

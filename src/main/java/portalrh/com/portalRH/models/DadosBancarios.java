@@ -1,8 +1,10 @@
 package portalrh.com.portalRH.models;
 
-import com.portalRH.PortalRH.enums.TipoConta;
+import jakarta.persistence.Entity;
+import portalrh.com.portalRH.enums.TipoConta;
 
-public class DadosBancarios {
+@Entity
+public class DadosBancarios extends EntityId{
 
     private TipoConta tipoconta;
     private String banco;
