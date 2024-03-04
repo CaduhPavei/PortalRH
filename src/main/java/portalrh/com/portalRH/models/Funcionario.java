@@ -1,8 +1,6 @@
 package portalrh.com.portalRH.models;
-
 import jakarta.persistence.Entity;
 import portalrh.com.portalRH.enums.*;
-
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.List;

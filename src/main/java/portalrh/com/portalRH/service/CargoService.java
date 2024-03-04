@@ -1,10 +1,12 @@
 package portalrh.com.portalRH.service;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import portalrh.com.portalRH.models.Cargo;
 import portalrh.com.portalRH.repository.CargoRepository;
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class CargoService {
 
     @Autowired

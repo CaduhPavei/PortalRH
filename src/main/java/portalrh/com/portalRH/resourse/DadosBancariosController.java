@@ -1,12 +1,9 @@
 package portalrh.com.portalRH.resourse;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import portalrh.com.portalRH.models.Cargo;
 import portalrh.com.portalRH.models.DadosBancarios;
 import portalrh.com.portalRH.service.DadosBancariosService;
-
 import java.net.URI;
 import java.util.List;
 

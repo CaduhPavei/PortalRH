@@ -1,7 +1,5 @@
 package portalrh.com.portalRH.models;
-
 import jakarta.persistence.Entity;
-
 import java.time.LocalDate;
 
 @Entity

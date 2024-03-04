@@ -1,8 +1,6 @@
 package portalrh.com.portalRH.models;
-
 import jakarta.persistence.Entity;
 import portalrh.com.portalRH.enums.Escolaridade;
-
 import java.time.LocalDate;
 
 @Entity

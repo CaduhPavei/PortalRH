@@ -1,5 +1,4 @@
 package portalrh.com.portalRH.models;
-
 import jakarta.persistence.*;
 
 @MappedSuperclass

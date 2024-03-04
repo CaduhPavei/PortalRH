@@ -1,13 +1,12 @@
 package portalrh.com.portalRH.service;
-
 import org.springframework.beans.factory.annotation.Autowired;
-import portalrh.com.portalRH.models.Cargo;
+import org.springframework.stereotype.Service;
 import portalrh.com.portalRH.models.DadosBancarios;
 import portalrh.com.portalRH.repository.DadosBancariosRepository;
-
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class DadosBancariosService {
 
     @Autowired
